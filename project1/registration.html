@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width= <device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+    <style>
+
+.reg{
+    animation: anima 2s ease forwards;
+}
+@keyframes anima {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+    </style>
+    </head>
+<body>
+    <div class="container">
+        <div class="reg">
+            <form method="post" action="data.php">
+                <h1 style="text-align: center;">Patient Registration Form</h1>
+                <label for="name">Patient name</label>
+            <input type="name" placeholder="Patient Name" id="name" name="Patient_name">
+            <br><br>
+            <label for="name">create password: </label>
+            <input type="password"  placeholder="enter a password" id="password1" name="Password">
+            <br><br>
+            <label for="name">Re-enter: </label>
+            <input type="password"  placeholder="enter a password" id="password2" name="Password1">
+            <br><br>
+            <label for="age">Age : </label>
+            <input id="log1" type="number"  placeholder="enter the age" name="Age">
+            <br><br>
+            <label for="name">Gender : </label>
+            <input type="name" id="gender" placeholder="enter Gender" name="Gender">
+            <br><br>
+            <label for="type of blood" id="bloodtype">Select blood group: </label>
+            <select  name="Blood_group">
+                <option>A+</option>
+                <option>O+</option>
+                <option>B+</option>
+                <option>A-</option>
+                <option>B-</option>
+                <option>O-</option>
+                <option>A+</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+            <br><br>
+            <label for="con" >Address : </label>
+            <input type="text" id="contact" placeholder="enter Address" name="Address">
+            <br><br>
+            <button >Signup</button>
+            <hr><br>
+            <a href="login.html" style="color: white;">Already Logged in ?</a>
+            </form>
+        </div>
+        </div>
+<script>
+        pass1Obj=document.getElementById("password1")
+        pass2Obj=document.getElementById("password2")
+
+        function validate(){
+            if(pass1Obj.value==pass2Obj.value){
+                return true;
+            }
+            alert("Password Mismatch")
+            return false;
+        }
+    </script>
+</body>
+</html>
