@@ -8,6 +8,7 @@ Inventory Tracking: Keep track of available blood units, including their blood t
 Blood Request Management: Handle blood requests from hospitals or other organizations, ensuring timely and accurate responses.
 User Authentication: Secure login system to protect sensitive information and restrict access to authorized users.
 
+![WhatsApp Image 2024-05-15 at 20 18 58_cf84c05f](https://github.com/diptanil98/Blood-Bank/assets/160762439/33e2caaa-dd19-46e2-8ad6-cd0056089ba4)
 ![WhatsApp Image 2024-05-15 at 20 19 26_4e542641](https://github.com/diptanil98/Blood-Bank/assets/160762439/f0689c84-ed86-4f2f-93da-9575bc7d6ba1)
 ![WhatsApp Image 2024-05-15 at 20 32 45_210ce379](https://github.com/diptanil98/Blood-Bank/assets/160762439/9399a64a-dc8d-4404-b6e9-519bb8c7f9c2)
 ![WhatsApp Image 2024-05-15 at 20 32 58_843b0e98](https://github.com/diptanil98/Blood-Bank/assets/160762439/f59a4377-d952-47b9-82a6-890f47bbce5d)
